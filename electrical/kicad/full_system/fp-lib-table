@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Capstone_Boards") (type "KiCad") (uri "${KIPRJMOD}/Capstone_Boards.pretty") (options "") (descr ""))
+)

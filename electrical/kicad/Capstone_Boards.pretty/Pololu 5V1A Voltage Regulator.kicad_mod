@@ -1,0 +1,128 @@
+(footprint "Pololu 5V1A Voltage Regulator"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.6 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a7bb363b-ad16-4b6a-89f2-f93c0dc134fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Pololu 5V1A Voltage Regulator"
+		(at 7.5 -3.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d3c268b2-51cb-4a14-aaff-5572b72830fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d038068-1823-4246-adec-369df5d3cea9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9642bf93-0983-4f22-80e9-65eae8ac1871")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 0 0)
+		(end 12.1 8.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "21866a39-ccd7-41f5-9356-722a65b16e38")
+	)
+	(fp_rect
+		(start -0.2 -0.2)
+		(end 12.4 9.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a0d58d47-66c4-4539-85b8-99cf5cc2bb87")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 12.1 8.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fc9923cc-26ae-4ffb-87a1-b602c36816bf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.6 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "11ab7812-395a-4e26-b16d-f1868d3e1ee4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 10.83 1.91)
+		(size 1.52 1.52)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "05b1a1b8-53c0-4019-ae9c-e35979ccbcc9")
+	)
+	(pad "2" thru_hole circle
+		(at 10.83 4.45)
+		(size 1.52 1.52)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6ced88b0-bccb-40b6-9f31-48d4af705c48")
+	)
+	(pad "3" thru_hole circle
+		(at 10.83 6.99)
+		(size 1.52 1.52)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f20453ce-3a7a-45ea-b37f-b7b0c1f0e918")
+	)
+	(embedded_fonts no)
+)
